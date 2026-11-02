@@ -17,3 +17,9 @@
     list-style: none;
     gap: 16px;
 }
+
+@media (max-width: 499px){
+    .header .container{
+        flex-direction: column;
+    }
+}

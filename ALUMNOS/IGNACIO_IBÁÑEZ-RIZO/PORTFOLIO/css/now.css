@@ -8,12 +8,12 @@
 }
 
 .card {
-    width: var(--card-width);
+    width: 880px;
     max-width: 100%; 
     margin: 0 auto; 
     background-color: var(--alt-bg);
     border: 2px solid var(--card-border); 
-    padding: var(--card-padding);
+    padding: 40px;
 }
 
 .card__flex {
@@ -33,4 +33,11 @@
 
 .card__text{
     font-size: 18px;
+}
+
+@media (max-width: 499px){
+
+    .now .container{
+        padding: 40px 0;
+    }
 }
