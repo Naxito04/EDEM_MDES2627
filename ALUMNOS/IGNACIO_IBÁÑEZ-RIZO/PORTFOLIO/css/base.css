@@ -1,0 +1,62 @@
+:root {
+    /* --- Colores --- */
+    --bg-color: antiquewhite;
+    --text-color: black;
+    --subtext-color: grey;
+    --btn-bg: #F4774F;
+    --btn-hover-bg: #a38c82;
+    --border-color: black;
+    --alt-bg: floralwhite; 
+    --card-border: darkgrey;
+
+    /* --- Tipografía --- */
+    --font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --font-weight-medium: 500;
+    --line-height-base: 1.6;
+
+    /* --- Espaciados y Tamaños --- */
+    --border-radius: 20px;
+    --padding-btn: 10px;
+    --container-max-width: 1000px;
+    --card-width: 880px;
+    --card-padding: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    line-height: var(--line-height-base);
+} 
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium); 
+}
+
+section{
+    border-bottom: 1px solid var(--border-color);
+}
+
+.button {
+    background-color: var(--btn-bg);
+    border-radius: var(--border-radius);
+    padding: var(--padding-btn);
+}
+
+.button:hover {
+    background-color: var(--btn-hover-bg);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: var(--container-max-width);
+}
