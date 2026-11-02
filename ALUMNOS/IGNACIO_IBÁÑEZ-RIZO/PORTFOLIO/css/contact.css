@@ -53,7 +53,7 @@
 }
 
 .contact .form__textarea:focus-visible{
-    outline: 4px solid 
+    outline: 4px solid (--color-accent); 
 }
 
 .contact .form__textarea{
